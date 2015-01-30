@@ -1,9 +1,17 @@
+# Image to Text
+
+## Clean Names
+
+Script takes a csv file with column 'Name' and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names. 
+
+## License
+
+Scripts are released under the [MIT License](https://github.com/soodoku/Clean-Names/License%20for%20Scripts.md).
+
+## Usage
+
 # Main: process_names.py
 # process_names.py calls names.py
-
-What the program does: 
-	It takes a csv file with column 'Name' and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names.   
-	
 
 COMMAND LINE OPTIONS
 ---------------------
@@ -23,5 +31,4 @@ Options:
 EXAMPLES
 --------
    chdir WhereTheScriptsAre
-   C:\Python27\python.exe process_names.py -a sample_input.csv 
-	
+   python process_names.py -a sample_input.csv 
