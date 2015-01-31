@@ -1,6 +1,6 @@
 ### Clean Names
 
-Takes a csv file with column 'Name' (containing 'dirty names.' For instance, lastname firstname.) and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names.
+Takes a csv file with column 'Name' (containing 'dirty names.' For instance, some names may have lastname firstname, others firstname lastname, yet others middlename, lastname, firstname) and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names.
 
 #### License
 
