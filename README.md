@@ -1,9 +1,6 @@
 ## Clean Names
 
-Script takes a csv file with column 'Name' and returns all the columns
-of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name',
-'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out
-duplicate names.
+Takes a csv file with column 'Name' (containing 'dirty names.' For instance, lastname firstname.) and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names.
 
 # License
 
