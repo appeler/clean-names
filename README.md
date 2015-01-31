@@ -1,16 +1,16 @@
-## Clean Names
+### Clean Names
 
 Takes a csv file with column 'Name' (containing 'dirty names.' For instance, lastname firstname.) and returns all the columns of the original csv file + 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. By default, it takes out duplicate names.
 
-# License
+#### License
 
 Scripts are released under the [MIT License][].
 
-# Usage
+#### Usage
 
 Main: process\_names.py process\_names.py calls names.py
 
-## COMMAND LINE OPTIONS
+#### COMMAND LINE OPTIONS
 
 Usage: process\_names.py [options]  
   
@@ -23,12 +23,12 @@ Options:
      -a, --all    Export all names (do not take duplicate names out)  
                   (default: False)
 
-## EXAMPLES
+#### EXAMPLES
 
 chdir WhereTheScriptsAre  
 python process\_names.py -a sample\_input.csv  
 
-## NOTE
+#### NOTE
 
 Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][].
 
