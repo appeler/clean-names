@@ -12,26 +12,25 @@ Main: process\_names.py process\_names.py calls names.py
 
 ## COMMAND LINE OPTIONS
 
-Usage: process\_names.py [options]
-
-Options:\
- -h, --help show this help message and exit\
- -o OUTFILE, --out=OUTFILE\
- Output file in CSV (default: cfscores\_output.csv)\
- -c COLUMN, --column=COLUMN\
- Column name in CSV that contains Names (default: Name)\
- -a, --all Export all names (do not take duplicate names out)\
- (default: False)
+Usage: process\_names.py [options]  
+  
+Options:  
+    -h, --help show this help message and exit  
+    -o OUTFILE, --out=OUTFILE  
+                  Output file in CSV (default: cfscores\_output.csv)  
+     -c COLUMN, --column=COLUMN  
+                  Column name in CSV that contains Names (default: Name)  
+     -a, --all    Export all names (do not take duplicate names out)  
+                  (default: False)
 
 ## EXAMPLES
 
-chdir WhereTheScriptsAre\
-python process\_names.py -a sample\_input.csv
+chdir WhereTheScriptsAre  
+python process\_names.py -a sample\_input.csv  
 
 ## NOTE
 
-Use the script to fix names in CF-Scores from [Database on Ideology,
-Money in Politics, and Elections][].
+Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][].
 
   [MIT License]: https://github.com/soodoku/Clean-Names/License%20for%20Scripts.md
   [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime
