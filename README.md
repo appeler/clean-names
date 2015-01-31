@@ -18,14 +18,14 @@ COMMAND LINE OPTIONS
 Usage: process_names.py [options] <input file>  
 
 Options:  
-  -h, --help            show this help message and exit  
-  -o OUTFILE,  --out=OUTFILE  
-                        Output file in CSV (default: cfscores_output.csv)  
-  -c COLUMN,   --column=COLUMN  
-                        Column name in CSV that contains Names (default:  
-                        Name)  
-  -a, --all             Export all names (do not take duplicate names out)  
-                        (default: False)  
+    -h, --help    show this help message and exit  
+    -o OUTFILE,  --out=OUTFILE  
+                    Output file in CSV (default: cfscores_output.csv)  
+    -c COLUMN,   --column=COLUMN  
+                    Column name in CSV that contains Names 
+                    (default: Name)  
+    -a, --all       Export all names (do not take duplicate names out)  
+                    (default: False)  
   
 EXAMPLES
 --------
