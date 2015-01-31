@@ -8,7 +8,7 @@ Scripts are released under the [MIT License][].
 
 #### Usage
 
-Main: process\_names.py 
+Main: process\_names.py  
 process\_names.py calls names.py
 
 #### Command Line Options
