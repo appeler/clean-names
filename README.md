@@ -15,13 +15,13 @@ Main: process\_names.py process\_names.py calls names.py
 Usage: process\_names.py [options]  
   
 Options:  
-> -h, 		--help show this help message and exit  
-> -o OUTFILE, --out=OUTFILE  
->                  	Output file in CSV (default: cfscores\_output.csv)  
+> 		-h, 		--help show this help message and exit  
+> 		-o OUTFILE, --out=OUTFILE  
+> >                  Output file in CSV (default: cfscores\_output.csv)  
 >    	-c COLUMN, --column=COLUMN  
->                  	Column name in CSV that contains Names (default: Name)  
+> >                  Column name in CSV that contains Names (default: Name)  
 >    	-a, --all    Export all names (do not take duplicate names out)  
-                 	 (default: False)
+> >                  (default: False)
 
 #### Examples
 
