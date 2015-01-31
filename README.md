@@ -13,13 +13,13 @@ Main: process\_names.py process\_names.py calls names.py
 #### Command Line Options
 
 <code>
-Usage: process\_names.py [options]  
-  
+Usage: process\_names.py [options]
+
 Options:  
- 		-h, 		--help show this help message and exit  
- 		-o OUTFILE, --out=OUTFILE  
-                  		Output file in CSV (default: cfscores\_output.csv)  
-    	-c COLUMN,  --column=COLUMN  
+ 		-h, 		--help show this help message and exit
+ 		-o OUTFILE, --out=OUTFILE
+                  		Output file in CSV (default: cfscores\_output.csv)
+    	-c COLUMN,  --column=COLUMN
                   		Column name in CSV that contains Names (default: Name)  
     	-a, 		--all    	
     					Export all names (do not take duplicate names out)  (default: False)
@@ -27,8 +27,10 @@ Options:
 
 #### Examples
 
-chdir WhereTheScriptsAre  
-python process\_names.py -a sample\_input.csv  
+<code>
+	chdir WhereTheScriptsAre  
+	python process\_names.py -a sample\_input.csv  
+</code>
 
 #### Note
 
