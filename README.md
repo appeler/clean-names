@@ -34,5 +34,5 @@ Options:
 
 Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][].
 
-  [MIT License]: https://github.com/soodoku/Clean-Names/License.md
+  [MIT License]: https://github.com/soodoku/Clean-Names/blob/master/License.md
   [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime
