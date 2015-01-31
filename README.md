@@ -11,7 +11,6 @@ Scripts are released under the [MIT License][].
 Main: process\_names.py process\_names.py calls names.py
 
 #### Command Line Options
-
 <pre><code>
 Usage: process_names.py [options]
 
@@ -26,7 +25,6 @@ Options:
 </code></pre>
 
 #### Examples
-
 <pre><code>
 	chdir WhereTheScriptsAre  
 	python process_names.py -a sample_input.csv  	
