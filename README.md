@@ -17,7 +17,7 @@ Usage: process_names.py [options]
 Options:  
  		-h, 		--help show this help message and exit  
  		-o OUTFILE, --out=OUTFILE  
-                  		Output file in CSV (default: cfscores_output.csv)  
+                  		Output file in CSV (default: sample_output.csv)  
     	-c COLUMN,  --column=COLUMN  
                   		Column name in CSV that contains Names (default: Name)    
     	-a, 		--all      	
