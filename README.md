@@ -25,15 +25,14 @@ Options:
     					Export all names (do not take duplicate names out)  (default: False)  
 </code></pre>
 
-#### Examples
+#### Example
 <pre><code>
-	chdir WhereTheScriptsAre  
 	python process_names.py -a sample_input.csv  	
 </code></pre>
 
 #### Note
 
-Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][]. Database with clean names at [Harvard DVN][].
+The script was used to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][]. Processed database with clean names posted on [Harvard DVN][].
 
   [MIT License]: https://github.com/soodoku/Clean-Names/blob/master/License.md
   [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime 
