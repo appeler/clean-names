@@ -33,7 +33,10 @@ Options:
 
 #### Note
 
-Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][].
+Use the script to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][]. Database with clean names at [Harvard DVN][].
 
   [MIT License]: https://github.com/soodoku/Clean-Names/blob/master/License.md
-  [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime
+  [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime 
+  [Harvard DVN]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28949
+ 
+
