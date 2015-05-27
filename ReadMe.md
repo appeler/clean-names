@@ -1,6 +1,6 @@
-## Clean Names
+### Clean Names
 
-The script takes a csv file with column 'Name' containing 'dirty names' --- names with all different formats: lastname firstname, firstname lastname, middlename lastname firstname etc. (see [sample input file](https://github.com/soodoku/clean-names/blob/master/sample_input.csv)). And it produces a csv file that has all the columns of the original csv file and the following columns: 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. The script takes out duplicate names by default (see [sample output file](https://github.com/soodoku/clean-names/blob/master/sample_output.csv)).
+The script takes a csv file with column 'Name' containing 'dirty names' --- names with all different formats: lastname firstname, firstname lastname, middlename lastname firstname etc. (see [sample input file](sample_input.csv)). And it produces a csv file that has all the columns of the original csv file and the following columns: 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. The script takes out duplicate names by default (see [sample output file](sample_output.csv)).
 
 ### Application
 The script was used to fix names in CF-Scores from [Database on Ideology, Money in Politics, and Elections][]. Processed database with clean names posted on [Harvard DVN][].
@@ -30,6 +30,6 @@ Options:
 ### License
 Scripts are released under the [MIT License][].
 
-  [MIT License]: https://github.com/soodoku/Clean-Names/blob/master/License.md
+  [MIT License]: License.md
   [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime 
   [Harvard DVN]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28949
