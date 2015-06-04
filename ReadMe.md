@@ -28,8 +28,8 @@ Options:
 <pre><code> python process_names.py -a sample_input.csv </code></pre>
 
 ### License
-Scripts are released under the [MIT License][].
+Scripts are released under the [GNU V3 License][].
 
-  [MIT License]: License.md
+  [GNU V3 License]: License.md
   [Database on Ideology, Money in Politics, and Elections]: http://data.stanford.edu/dime 
   [Harvard DVN]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28949
