@@ -6,7 +6,7 @@ python:
 sudo: required
 
 install:
-	- pip install --upgrade pip
+    - pip install --upgrade pip
     - pip install nameparser
 
 script: nosetests
