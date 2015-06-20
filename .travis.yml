@@ -3,6 +3,6 @@ python:
     - 2.7
 
 sudo: required
-
+script: nosetests
 env:
     - DEPS=false
