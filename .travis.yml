@@ -6,6 +6,7 @@ python:
 sudo: required
 
 install:
-    - pip install HumanName
+	- pip install --upgrade pip
+    - pip install nameparser
 
 script: nosetests
