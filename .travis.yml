@@ -3,10 +3,14 @@ language: python
 python:
     - 2.7
 
+notifications:
+  email: false
+
 sudo: required
 
 install:
     - pip install --upgrade pip
     - pip install nameparser
 
-script: nosetests
+script:
+    - python process_names.py -a sample_input.csv 
