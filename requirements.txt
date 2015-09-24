@@ -1,0 +1,1 @@
+nameparser==0.3.10
