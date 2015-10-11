@@ -1,6 +1,7 @@
 ### Clean Names
 
 [![Build Status](https://travis-ci.org/soodoku/clean-names.svg?branch=master)](https://travis-ci.org/soodoku/clean-names)
+[![Build status](https://ci.appveyor.com/api/projects/status/k4ktm279ldl60aeq?svg=true)](https://ci.appveyor.com/project/soodoku/clean-names)
 
 The script takes a csv file with column 'Name' containing 'dirty names' --- names with all different formats: lastname firstname, firstname lastname, middlename lastname firstname etc. (see [sample input file](sample_input.csv)). And it produces a csv file that has all the columns of the original csv file and the following columns: 'uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'. The script takes out duplicate names by default (see [sample output file](sample_output.csv)).
 
