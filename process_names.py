@@ -17,7 +17,7 @@ def parse_command_line(argv):
     
     parser.add_option("-o", "--out", action="store", 
                       type="string", dest="outfile", default=DEFAULT_OUTPUT,
-                      help="Output file in CSV (default: %s)" % DEFAULT_OUTPUT)
+                      help="Output file in CSV (default: {0!s})".format(DEFAULT_OUTPUT))
     parser.add_option("-c", "--column", action="store", 
                       type="string", dest="column", default="Name",
                       help="Column name file in CSV contains Name list (default: Name)")
@@ -27,12 +27,12 @@ def parse_command_line(argv):
     return parser.parse_args(argv)
 
 if __name__ == "__main__":
-    print "%s - r3 (2013/08/25)\n" % (os.path.basename(sys.argv[0]))    
+    print "{0!s} - r3 (2013/08/25)\n".format((os.path.basename(sys.argv[0])))    
 
     (options, args) = parse_command_line(sys.argv)
 
     if len(args) < 2:
-        print("Usage: %s [options] <input file>\n" % (sys.argv[0]))
+        print("Usage: {0!s} [options] <input file>\n".format((sys.argv[0])))
         sys.exit(-1)
    
     print("Processing and exporting, please wait...")
