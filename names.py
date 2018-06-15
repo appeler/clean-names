@@ -14,7 +14,7 @@ def process_name_list(infile, outfile=None, col="Name", all=False):
     ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
     if outfile:
         try:
-            of = open(outfile, 'wb')
+            of = open(outfile, 'w')
         except:
             outfile = None
     
@@ -60,7 +60,7 @@ def process_name_list(infile, outfile=None, col="Name", all=False):
                 suffix = ', '.join(suffix_list)
                 
                 if last == '':
-                    print repr(name)
+                    print(repr(name))
                     
                 # Fixed ROMAN and Title in Middle
                 if mid != "":

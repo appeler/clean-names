@@ -27,7 +27,7 @@ def parse_command_line(argv):
     return parser.parse_args(argv)
 
 if __name__ == "__main__":
-    print "{0!s} - r3 (2013/08/25)\n".format((os.path.basename(sys.argv[0])))    
+    print("{0!s} - r3 (2013/08/25)\n".format((os.path.basename(sys.argv[0]))))    
 
     (options, args) = parse_command_line(sys.argv)
 
