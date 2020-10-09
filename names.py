@@ -14,11 +14,11 @@ def process_name_list(infile, outfile=None, col="Name", all=False):
     ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
     if outfile:
         try:
-            of = open(outfile, 'w')
+            of = open(outfile, 'w', encoding='utf-8')
         except:
             outfile = None
     
-    with open(infile) as f:
+    with open(infile, encoding='utf-8') as f:
         reader = csv.DictReader(f)
         if outfile:
             writer = csv.DictWriter(of, fieldnames=reader.fieldnames + ['uniqid', 'FirstName', 'MiddleInitial/Name', 'LastName', 'RomanNumeral', 'Title', 'Suffix'])
