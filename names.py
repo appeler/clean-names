@@ -96,16 +96,15 @@ def process_name_list(infile, outfile=None, col="Name", all=False):
                 if all or (first, mid, last) not in allnames:
                     rowid += 1
                     r['uniqid'] = rowid
-                    allnameswithid.append((r['uniqid'], first, mid, last, r['seat'].strip()))
+                    allnameswithid.append((r['uniqid'], first, mid, last))
                     allnames.append((first, mid, last))
-                    #print "Add...", r['uniqid'], first, "-", mid, "-", last, "-", r['seat'].strip()
                     s = {'FirstName': first.upper(), 'MiddleInitial/Name': mid.upper(), 'LastName': name.last, 'RomanNumeral': roman.upper(), 'Title': title.upper(), 'Suffix': suffix.upper()}
                     t = dict(r, **s)
                     if outfile:
                         writer.writerow(t)
         if outfile:
             of.close()                            
-        return allnameswithid
+        return None
     return None
 
 if __name__ == '__main__':
